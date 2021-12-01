@@ -12,6 +12,7 @@ struct SportsGearApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .environmentObject(Shop())
         }
     }
 }
